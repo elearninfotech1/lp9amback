@@ -38,7 +38,7 @@ app.post("/login", async (req, res) => {
 });
 
 app.get("*", async (req, res) => {  
-  res.send('<h1>Invalid URL</h1>);
+  res.send('<h1>Invalid URL</h1>');
 });
 
 app.listen(4000);
